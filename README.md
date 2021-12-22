@@ -8,13 +8,6 @@ git clone https://github.com/ALTA-Immersive-BE5/Problem-Solving-Paradigm.git
 
 setelah clone selesai, `pindah ke folder hasil clone`
 
-lalu jalankan 
-
-```
-chmod 777 ./execute.sh
-```
-
-setelah menjalankan perintah diatas, 
 buat repository pada github organization kalian dengan format: 
 
 `Problem-Solving-Paradigm`
@@ -39,9 +32,9 @@ git remote add nama-remote url-repository-kalian
     ```
     go run ./problem1/problem1.go
     ```
-4. Setelah semua program selesai dikerjakan, jalankan
+4. Setelah semua program selesai dikerjakan, jalankan proses testing (sesuaikan keperluan)
     ```
-    ./execute.sh
+    go test . -v
     ```
 5. Screenshoot terminal hasil perintah nomer 4
 ![](./screenshots/contoh-ss.png)
