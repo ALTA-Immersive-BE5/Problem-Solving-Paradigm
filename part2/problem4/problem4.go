@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func RomeNumerals(value int) string {
+func RomanNumerals(value int) string {
 	//your code here
 }
 
 func main() {
-	fmt.Println(RomeNumerals(6))    //VI
-	fmt.Println(RomeNumerals(9))    //IX
-	fmt.Println(RomeNumerals(23))   //XXIII
-	fmt.Println(RomeNumerals(2821)) //MMXXI
-	fmt.Println(RomeNumerals(1646)) //MDCXLVI
+	fmt.Println(RomanNumerals(6))    //VI
+	fmt.Println(RomanNumerals(9))    //IX
+	fmt.Println(RomanNumerals(23))   //XXIII
+	fmt.Println(RomanNumerals(2821)) //MMXXI
+	fmt.Println(RomanNumerals(1646)) //MDCXLVI
 }

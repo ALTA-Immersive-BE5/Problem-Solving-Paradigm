@@ -2,18 +2,18 @@ package main
 
 import "fmt"
 
-func Memoization(n int) int {
+func BottomUp(n int) int {
 	// your code here
 }
 
 func main() {
-	fmt.Println(Memoization(0))
-	fmt.Println(Memoization(1))
-	fmt.Println(Memoization(2))
-	fmt.Println(Memoization(3))
-	fmt.Println(Memoization(5))
-	fmt.Println(Memoization(6))
-	fmt.Println(Memoization(7))
-	fmt.Println(Memoization(9))
-	fmt.Println(Memoization(10))
+	fmt.Println(BottomUp(0))  //0
+	fmt.Println(BottomUp(1))  //1
+	fmt.Println(BottomUp(2))  //1
+	fmt.Println(BottomUp(3))  //2
+	fmt.Println(BottomUp(5))  //5
+	fmt.Println(BottomUp(6))  //8
+	fmt.Println(BottomUp(7))  //13
+	fmt.Println(BottomUp(9))  //34
+	fmt.Println(BottomUp(10)) //55
 }
